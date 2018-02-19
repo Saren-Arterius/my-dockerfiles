@@ -5,7 +5,7 @@ Here lies my dockerfiles for tools that are hard to install in my systems.
 2. For image building, clone this repo `$ git clone https://github.com/Saren-Arterius/my-dockerfiles && cd my-dockerfiles`
 # Butterflow
 ### Origin
-https://github.com/dthpham/butterflow
+- https://github.com/dthpham/butterflow
 ### Usage
 1. Retrieve the docker image
     - Pull from docker hub, it will be done automatically as you `docker run`
@@ -14,10 +14,10 @@ https://github.com/dthpham/butterflow
 2. `$ mkdir /tmp/butterflow && cp /path/to/your/video.mp4 /tmp/butterflow/video.mp4`
 3. `$ docker run -it --rm -v /tmp/butterflow:/butterflow saren/butterflow butterflow -m -v /butterflow/video.mp4 -o /butterflow/out.mp4`
 4. Retrieve the processed video `/tmp/butterflow/out.mp4`
-# Butterflow
+# style2paints
 ### Origin
-https://github.com/lllyasviel/style2paints
-https://github.com/lllyasviel/style2paints/issues/36
+- Repo: https://github.com/lllyasviel/style2paints
+- Dockerfile: https://github.com/lllyasviel/style2paints/issues/36
 ### Usage
 1. Retrieve the docker image
     - Build the docker image
