@@ -1,0 +1,10 @@
+tensorflow
+# tensorflow_gpu
+keras
+chainer
+# cupy
+bottle
+gevent
+h5py
+opencv-python
+scikit-image
