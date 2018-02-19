@@ -21,6 +21,6 @@ Here lies my dockerfiles for tools that are hard to install in my systems.
 ### Usage
 1. Retrieve the docker image
     - Build the docker image
-        - `$ docker build -t style2paint-cpu style2paint` and wait
-2. `$ docker run --rm -p 8000:8000 -it style2paint-cpu`
+        - `$ docker build -t style2paints-cpu style2paints` and wait
+2. `$ docker run --rm -p 8000:8000 -it style2paints-cpu`
 3. Navigate to http://localhost:8000
